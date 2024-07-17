@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "View Uploaded Files";
+}
+
+<h2>View Uploaded Files</h2>
+
+<ul>
+    @foreach (var file in Model)
+    {
+        <li>@file</li>
+    }
+</ul>
